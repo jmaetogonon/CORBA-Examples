@@ -1,0 +1,15 @@
+module Exam1App
+{
+
+	interface Exam1
+	{
+		long gcd(in long num1, in long num2);
+		long countVow(in string a);
+		long countCons(in string a);
+		string palindrome(in string n);
+
+		oneway void shutdown();
+	};
+};
+
+
